@@ -111,7 +111,7 @@ footer {
 
 /* sidebar */
 
-.sidebar {
+#sidebar {
   float: right;
   width: 100%;
   max-width: 270px;
@@ -146,10 +146,10 @@ h3,
   padding-top: 130px;
 }
 
-.main-section {
+#main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
+  max-width: 660px;
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
@@ -237,3 +237,92 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width:980px) {
+  #sidebar{
+    width:30%;
+  }
+  #main-section{
+    width:70%;
+
+  }
+
+  @media screen and (max-width:768px) {
+  #sidebar{
+    width:100%;
+    float:left;
+    max-width: 650px;
+  }
+  #main-section{
+    width:100%;
+
+
+
+  }
+
+   @media screen and (max-width:640px) {
+  #sidebar{
+    width:100%;
+    float:left;
+    max-width: 650px;
+  }
+  #main-section{
+    width:100%;
+
+  }
+  nav {
+    float: left;
+    max-width:100%;
+    margin: 0 auto 0 auto;
+  }
+
+  #logo {
+    float: left;
+    max-width: 100%;
+    width: 640px;
+  }
+
+  .work {
+  position: relative;
+  width: 100%;
+ /* max-width: 274px;*/
+  margin: 0 auto 0 auto;
+ }
+
+ .work div {
+  
+
+  width: 100%;
+ 
+  border: 0 none;
+  margin: 0 auto 0 auto;
+  opacity: 0.8;
+}
+
+
+ .work img {
+
+  width: 100%;
+  border: 0 none;
+  margin: 0 auto 0 auto;
+  opacity: 0.8;
+}
+
+
+h3 {
+  width:100%;
+}
+
+.auth-image
+{
+ width: 100%;
+ 
+  border: 0 none;
+  margin: 0 auto 0 auto;
+  
+
+}
+
+
+}
+
